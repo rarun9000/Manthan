@@ -28,11 +28,12 @@ body{
     align-items: center;
     align-content: center;
     flex-direction: column;
+    margin-left: 1vw;
 }
 
 .team span{
     display: block;
-    margin: atuo;
+    margin: auto;
 }
 
 .content-1{
@@ -137,6 +138,8 @@ table{
 .st{
     border-collapse: collapse;
     border-spacing: 0;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 table td{
@@ -262,8 +265,4 @@ span.typ{
     text-align: center;
     vertical-align:middle;
     border-top-right-radius: 1.3vw;
-}
-.selected{
-    background-color: #FF0000;  
-    color: white;
 }

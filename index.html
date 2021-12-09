@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ANPR</title>
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="script.js">
+    </script>
 </head>
 <header>
     <div class="nav-bar">
@@ -25,53 +28,25 @@
             <div class="tab">
                 <table class="st">
                     <tbody id="table-insert">
-                        <tr class="selected">
-                            <td>MH01JA8300</td>
-                            <td>Car</td>
+                        <tr onclick="highlight(this)" id="selected" style="background-color: #FF0000;color: white;">
+                            <td>DL 33 AY 6324</td>
+                            <td>Bike</td>
                         </tr>
-                        <tr>
-                            <td>TN22AB9519</td>
-                            <td>Two Wheeler</td>
+                        <tr onclick="highlight(this)">
+                            <td>HR 55 W 4347</td>
+                            <td>Mini Truck</td>
                         </tr>
-                        <tr>
-                            <td>KL47F7878</td>
-                            <td>car</td>
+                        <tr onclick="highlight(this)">
+                            <td>DL 12 SD 7561</td>
+                            <td>Bike</td>
                         </tr>
-                        <tr>
-                            <td>TN76AZ1197</td>
-                            <td>car</td>
+                        <tr onclick="highlight(this)">
+                            <td>HR 51 AA 1997</td>
+                            <td>Bike</td>
                         </tr>
-                        <tr>
-                            <td>TN06X4685</td>
-                            <td>Three Wheeler</td>
-                        </tr>
-                        <tr>
-                            <td>MH14DX3680</td>
-                            <td>Two Wheeler</td>
-                        </tr>
-                        <tr>
-                            <td>TN01JA1300</td>
-                            <td>Car</td>
-                        </tr>
-                        <tr>
-                            <td>TN01AB9712</td>
-                            <td>Two Wheeler</td>
-                        </tr>
-                        <tr>
-                            <td>KL47F4818</td>
-                            <td>car</td>
-                        </tr>
-                        <tr>
-                            <td>TN16AC1107</td>
-                            <td>car</td>
-                        </tr>
-                        <tr>
-                            <td>TN07B4675</td>
-                            <td>Three Wheeler</td>
-                        </tr>
-                        <tr>
-                            <td>MH15DB1580</td>
-                            <td>Two Wheeler</td>
+                        <tr onclick="highlight(this)">
+                            <td>DL 1 LF 7843</td>
+                            <td>Mini Truck</td>
                         </tr>
                     </tbody>
                 </table>
@@ -134,6 +109,9 @@
             </div>
         </div>        
     </div>
+    <script>
+        set(0);
+    </script>
 </body>
 </html>
 
