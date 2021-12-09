@@ -26,6 +26,10 @@ function set(i){
         document.getElementById("ls").innerHTML=details[i][6];;
         document.getElementById("btype").innerHTML=details[i][7];;    
         document.getElementById("mapset").setAttribute("src",details[i][8]);
+        var url = "Asset/"+(i+1)+".png";
+        console.log(url);
+        document.getElementById("vehicle-snap").setAttribute("src",url);
+
 }
 
 function highlight(ele){
